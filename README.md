@@ -166,10 +166,9 @@ Als we dan alles even opsommen dan zijn dit de vereisten die Dhr. Beenakker in g
 
 Er zijn 3 systemen binnen het systeem;
 
-- **Zilverenkruis**
+**Zilverenkruis**
 
-Het systeem want bedoeld is voor een medewerker bij het zilverenkruis heeft de volgende functionaliteiten.
-
+Het systeem wat bedoeld is voor een medewerker bij het zilverenkruis heeft de volgende functionaliteiten.
 - Zoeken op klant naam (Voor- en achter -naam)
 - Alle klantgegevens inzien en indien nodig aanpassen
 - Gegevens van de artsen inzien
@@ -179,10 +178,9 @@ Het systeem want bedoeld is voor een medewerker bij het zilverenkruis heeft de v
 - Kan recepten betalen en kan checken of het verzekerd is of niet
 - Nieuwe klant toevoegen
 
-- **Dokter**
+ **Dokter**
 
-Het systeem dat bedoeld is om door een dokter te gebruiken heeft de volgende functionaliteiten
-
+Het systeem dat bedoeld is om door een dokter te gebruiken heeft de volgende functionaliteiten.
 - Zoeken op kant naam (Voor- en achter- naam)
 - Kan alle klantgegevens inzien
 - Kan recepten uitschrijven
@@ -190,8 +188,10 @@ Het systeem dat bedoeld is om door een dokter te gebruiken heeft de volgende fun
 - Kan inzien welke medicatie wel of niet verzekerd is
 - Kan zien welke medicatie is opgehaald en welke niet
 
-- **Apotheek**
-
+ **Apotheek**
+ 
+Het systeem dat bedoeld is om door een medewerker van de apotheek te gebruiken heeft de volgende functionaliteiten.
 - Kan inzien welke recepten nog opgehaald moeten worden
+- Kan aangeven of het recept is opgehaald of niet
 - Krijgt na 24uur een melding als een recept nog niet is opgehaald zodat ze kunnen bellen
 - Stuurt automatisch eind van de dag alle rekeningen op naar het Zilverenkruis.
