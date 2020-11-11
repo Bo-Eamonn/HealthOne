@@ -17,23 +17,23 @@ Datum: 10-11-2020
 
 # Inhoud
 
-[1 Inleiding](#_Toc55914960)
+[1 Inleiding](#1-inleiding)
 
-[2 Missie van de klant](#_Toc55914961)
+[2 Missie van de klant](#2-missie-van-de-klant)
 
-[3 Huidige situatie](#_Toc55914962)
+[3 Huidige situatie](#3-huidige-situatie)
 
-[4 Gewenste situatie](#_Toc55914963)
+[4 Gewenste situatie](#4-gewenste-situatie)
 
-[5 Het product](#_Toc55914964)
+[5 Het product](#5-het-product)
 
-[5.1 Product eisen](#_Toc55914965)
+[5.1 Product eisen](#51-product-eisen)
 
-[6 Doelgroep(en)](#_Toc55914966)
+[6 Doelgroep(en)](#6-doelgroepen)
 
-[7 Projectdoelstelling(en)](#_Toc55914967)
+[7 Projectdoelstelling(en)](#7-projectdoelstellingen)
 
-[8 Uitwerking Interview Klant](#_Toc55914968)
+[8 Uitwerking Interview Klant](#8-uitwerking-interview-klant)
 
 
 # 1. Inleiding
