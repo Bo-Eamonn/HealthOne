@@ -1,5 +1,5 @@
 # Behoefteanalyse
-![Logo](/static/images/logo.png)
+![Logo](/frontend/static/images/logo.png)
 
 Project: HeathOne
 
