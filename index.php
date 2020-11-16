@@ -15,7 +15,7 @@
     <img src="/healthone/frontend/static/images/logo.png" alt="logo">
     <?php
         try{
-            include ("backend/connectUserDB.php");
+            include ("backend/connectDB.php");
             if(isset($_POST['inloggen'])){
                 $username = filter_input(INPUT_POST, "uname", FILTER_SANITIZE_STRING);
                 $password = sha1($_POST['pswrd']);
