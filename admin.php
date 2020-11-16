@@ -15,26 +15,18 @@ $username = 'Bo-Eamonn de Snoo';
 </head>
 
 <body>
-    <nav>
-        <?php
-        session_start();
-        if ($_SESSION['login'] == true) {
-        echo "<p style='align-self: center;'>Welkom: " . $_SESSION['username'] . "</p>";
-        } else {
-            header('Location: /healthOne/');
-        }
-        ?>
-        <div class="topnav">
-            <img class="logo" src="/HealthOne/frontend/static/images/logo.png" alt="logo">
-            
-            <button title="uitloggen" onclick="location.href='/HealthOne/backend/logout.php'" class="logout" >Uitloggen</button>
-            <div class="search-container">
-                <form action="/action_page.php">
-                    <input type="text" placeholder="Zoeken" title="Zoek naar patienten" name="search">
-                    <button type="submit"><i title="zoeken..." class="fa fa-search"></i></button>
-                </form>
-            </div>
+    <header>
+        <div>
+        <img src="/healthone/frontend/static/images/logo.png" alt="Logo" id="logo">
+        <form>
+            <input type="text" placeholder="Zoeken" title="Zoek naar patienten" name="search">
+            <button type="submit"><i title="zoeken..." class="fa fa-search"></i></button>
+        </form>
+        <button title="uitloggen" onclick="location.href='/HealthOne/backend/logout.php'" id="logout" >Uitloggen</button>
         </div>
+    </header>
+    <nav>
+
     </nav>
     <main>
 
