@@ -5,17 +5,33 @@
   margin: 0;
 }
 
-header div {
-  background-color: #e9e9e9;
+header {
+  background: #e9e9e9;
   width: 100%;
   height: 180px;
 }
 
-header div img {
+header > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header > div > img {
   width: 143px;
   height: 143px;
-  margin: 1.67vh 31.4vw 1.75vh 1.04vw;
-  float: left;
+  margin: 18px 0 19px 20px;
+}
+
+header > div > div button#logout {
+  height: 80px;
+  width: 198px;
+  margin: 50px 40px 0 0;
+  background-color: #33CCFF;
+  border-radius: 100px;
 }
 
 nav {

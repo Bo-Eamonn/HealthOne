@@ -23,9 +23,12 @@ $username = 'Bo-Eamonn de Snoo';
                     <input type="text" placeholder="Zoeken" title="Zoek naar patienten" name="search">
                     <button type="submit"><i title="zoeken..." class="fa fa-search"></i></button>
                 </form>
-                <button id="logout" title="uitloggen" onclick="location.href='/HealthOne/backend/logout.php'"
-                    id="logout">Uitloggen</button>
             </div>
+            <div>
+                <button id="logout" title="uitloggen"
+                    onclick="location.href='/HealthOne/backend/logout.php'">Uitloggen</button>
+            </div>
+        </div>
     </header>
     <nav>
         <section>
@@ -40,9 +43,9 @@ $username = 'Bo-Eamonn de Snoo';
         </section>
     </nav>
     <main>
-    <div class="content">
-        <img src="/healthone/frontend/static/images/profilePicture/profilePlaceholder.png" alt="Profiel Foto">
-        <?php
+        <div class="content">
+            <img src="/healthone/frontend/static/images/profilePicture/profilePlaceholder.png" alt="Profiel Foto">
+            <?php
         session_start();
         if ($_SESSION['login'] == true) {
         echo "<h1>Welkom: " . $_SESSION['username'] . "</h1>";
@@ -50,12 +53,12 @@ $username = 'Bo-Eamonn de Snoo';
             header('Location: /healthOne/');
         }
         ?>
-        <div class="container">
-            <section class="logs">
-                
-            </section>
+            <div class="container">
+                <section class="logs">
+
+                </section>
+            </div>
         </div>
-    </div>
     </main>
 </body>
 

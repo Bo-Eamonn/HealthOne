@@ -7,34 +7,33 @@ $bordercolor: #666666;
     margin: 0;
 }
 
-header {
-    div {
-        background-color: $headercolor;
-        width: 100%;
-        height: 180px;
 
-        img {
+
+header {
+    background: $headercolor;
+    width: 100%;
+    height: 180px;
+
+    >div {
+        display: flex;
+        justify-content: space-between;
+
+        >img {
             width: 143px;
             height: 143px;
-            margin: 1.67vh 31.4vw 1.75vh 1.04vw;
-            float: left;
+            margin: 18px 0 19px 20px    ;
         }
 
-        // search;
-        // center
-        // width: 389px;
-        // height: 51px;
-        // color: black;
-        // border: solid 1px $bordercolor;
-        // background-color: white;
-        // margin: 110px 527px 19px 0px;
-
-        // button#logout 
-        // margin: 50px 40px 50px 0px;
-        // background-color: #33CCFF;
-        // border-radius: 100px;
+        >div button#logout{
+            height: 80px;
+            width: 198px;
+            margin: 50px 40px 0 0;
+            background-color: #33CCFF;
+            border-radius: 100px;
+        }
     }
 }
+
 
 nav {
     float: left;
