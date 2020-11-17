@@ -1,7 +1,7 @@
 <?php
 
 try{
-    include ("connectgitDB.php");
+    include ("connectDB.php");
     $query = $db->prepare("INSERT INTO users(uname, pswrd) VALUES ('Bo-Eamonn de Snoo','" . sha1('wachtwoord') . "')");
     if($query->execute()){
         echo "nieuwe gegevens zijn toegevoeg;";
