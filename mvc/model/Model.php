@@ -93,7 +93,7 @@ class Model
         {
             $query = $this->database->prepare ("INSERT INTO `users` (`id`, `uname`, `pswrd`)VALUES (NULL, :user, :pass)");
             $query->bindParam(":user", $uname);
-            $query->bindParam(":pass", sha1($pswrd));
+            $query->bindParam(":pass", $pswrd);
             
             $result = $query->execute();
             return $result;
@@ -110,7 +110,7 @@ class Model
         $query = $this->database->prepare ("UPDATE `users` (`id`, `uname`, `pswrd`)VALUES (NULL, :user, :pass)");
             $query->bindParam(":id", $id);
             $query->bindParam(":user", $uname);
-            $query->bindParam(":pass", sha1($pswrd));
+            $query->bindParam(":pass", $pswrd);
         $result = $query->execute();
         return $result;
     }
