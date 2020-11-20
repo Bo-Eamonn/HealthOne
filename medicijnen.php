@@ -31,8 +31,8 @@ require_once "frontend/web/nav.php";
                                 echo "<tr>";    
                                     echo "<td id='" . $data["insured"]."'>" . $data["name"] . " </td>";
                                     echo "<td id='" . $data["insured"]."'>" . $data["cat"] . " </td>";
-                                    echo "<td id='" . $data["insured"]."'>" . "<a title='Edit' href='editMed.php?id=" . $data['id'] . "'><i class='fa fa-pen' aria-hidden='true'></i></a>
-                                                                               <a title='Delete' href='editMed.php?id=" . $data['id'] . "'><i class='fa fa-trash' aria-hidden='true'></i></a>" . " </td>";
+                                    echo "<td id='" . $data["insured"]."'>" . "<a title='Edit'><i class='fa fa-pen' aria-hidden='true'></i></a>
+                                                                               <a title='Delete'><i class='fa fa-trash' aria-hidden='true'></i></a>" . " </td>";
                                 echo "</tr>";
                             }
                             echo "</table>";     

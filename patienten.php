@@ -33,8 +33,8 @@ require_once "frontend/web/nav.php";
                                     echo "<td>" . $data["naam"] . " </td>";
                                     echo "<td>" . $data["geboortedatum"] . " </td>";
                                     echo "<td>" . $data["zknummer"] . " </td>";
-                                    echo "<td>" . "<a title='Edit' href='editUser.php?id=" . $data['id'] . "'><i class='fa fa-pen' aria-hidden='true'></i></a>
-                                                                               <a title='Delete' href='deleteUSer.php?id=" . $data['id'] . "'><i class='fa fa-trash' aria-hidden='true'></i></a>" . " </td>";
+                                    echo "<td>" . "<a title='Edit'><i class='fa fa-pen' aria-hidden='true'></i></a>
+                                                    <a title='Delete'><i class='fa fa-trash' aria-hidden='true'></i></a>" . " </td>";
                                 echo "</tr>";
                             }
                             echo "</table>";     
