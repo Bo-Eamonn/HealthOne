@@ -27,7 +27,7 @@
                     session_start();
                     $_SESSION['login'] = true;
                     $_SESSION['username'] = $username;
-                    header('Location: /HealthOne/admin.php');
+                    header('Location: /HealthOne/home.php');
                 } else{
                     echo "<p id='wrng'>Onjuiste gegevens!</p>";
                 }
@@ -47,6 +47,11 @@
                 <input type="password" placeholder="Wachtwoord" name="pswrd" required="required" id="pswrd">
                     <i class="far fa-eye" id="pswrdToggle"></i>
             </div> 
+            <select>
+                <option value="1">Arts</option>
+                <option value="2">Apotheker</option>
+                <option value="3">Zilverenkruis</option>
+            </select>
             <button name="inloggen" type="submit">Inloggen</button>
         </form>
     </div>
