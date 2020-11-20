@@ -2,7 +2,7 @@
 
 try{
     include ("connectDB.php");
-    $query = $db->prepare("INSERT INTO users(uname, pswrd) VALUES ('Bo-Eamonn de Snoo','" . sha1('wachtwoord') . "')");
+    $query = $db->prepare("INSERT INTO users(uname, pswrd, cat, catDesc) VALUES ('Bo-Eamonn','" . sha1('pass') . "','3','Admin')");
     if($query->execute()){
         echo "nieuwe gegevens zijn toegevoeg;";
     } else {
