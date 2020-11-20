@@ -14,7 +14,7 @@ require_once "frontend/web/nav.php";
                 }
             ?>
             <div class="container">
-                <div class="med">
+                <div class="table">
                     <?php
                         try{
                             include("backend/connectDB.php");

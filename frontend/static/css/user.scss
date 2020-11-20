@@ -119,7 +119,7 @@ main {
                 overflow: auto;
             }
 
-            .med {
+            .table {
                 height: 534px;
                 width: 1444px;
                 padding: 10px;
@@ -146,44 +146,16 @@ main {
                         background-color: $red;
                     }
 
-                    tr:nth-child(even) {
-                        background-color: #f2f2f2;
-                    }
-                }
-            }
-            .user {
-                height: 534px;
-                width: 1444px;
-                padding: 10px;
-                margin: 60px 73px;
-                border: 1px solid $bordercolor;
-                font: 16px/26px Georgia, Garamond, Serif;
-                overflow: auto;
-
-                table {
-                    border-collapse: collapse;
-                    width: 100%;
-
-
-                    th,
-                    td {
-                        text-align: center;
-                        padding: 8px;
-                        border: solid 1px $bordercolor;
-
-
-                    }
-
                     td#admin {
-                        background-color: blue;
+                        background-color: rgba(0, 0, 255, 0.13);
                     }
 
                     td#arts {
-                        background-color: red;
+                        background-color: rgba(255, 0, 0, 0.13);
                     }
 
                     td#apotheek {
-                        background-color: green;
+                        background-color: rgba(0, 255, 0, 0.13);
                     }
 
                     tr:nth-child(even) {
@@ -194,13 +166,15 @@ main {
         }
     }
 }
-footer{
+
+footer {
     padding: 8px;
     text-align: center;
     width: 100%;
     height: auto;
-    a{
+
+    a {
         color: white;
-        
+
     }
 }
