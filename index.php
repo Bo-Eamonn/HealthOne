@@ -42,9 +42,9 @@
         
         <h1>login</h1>
         <form method="POST">
-            <input type="text" placeholder="Gebruikersnaam" name="uname" required="required" id="uname">
+            <input type="text" placeholder="Gebruikersnaam" autocomplete="off" name="uname" required="required" id="uname">
             <div class="container"> 
-                <input type="password" placeholder="Wachtwoord" name="pswrd" required="required" id="pswrd">
+                <input type="password" placeholder="Wachtwoord" autocomplete="off" name="pswrd" required="required" id="pswrd">
                     <i class="far fa-eye" id="pswrdToggle"></i>
             </div> 
             <select>
