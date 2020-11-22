@@ -109,6 +109,13 @@ main .content .container {
   float: left;
 }
 
+main .content .container button {
+  width: 158px;
+  height: 64px;
+  border-radius: 25px;
+  border: solid 1px #666666;
+}
+
 main .content .container .logs {
   height: 534px;
   width: 1444px;
@@ -169,6 +176,6 @@ footer {
 }
 
 footer a {
-  color: white;
+  color: black;
 }
 /*# sourceMappingURL=user.css.map */

@@ -14,6 +14,7 @@ require_once "frontend/web/nav.php";
                 }
             ?>
             <div class="container">
+                <button>Toevoegen</button>
                 <div class="table">
                     <?php
                         try{
