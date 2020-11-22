@@ -109,13 +109,6 @@ main {
             margin: 0px 10px 10px 10px;
             float: left;
 
-            button {
-                width: 158px;
-                height: 64px;
-                border-radius: 25px;
-                border: solid 1px $bordercolor;
-            }
-
             .logs {
                 height: 534px;
                 width: 1444px;
@@ -126,11 +119,19 @@ main {
                 overflow: auto;
             }
 
+            button {
+                width: 158px;
+                height: 64px;
+                border-radius: 25px;
+                border: solid 1px $bordercolor;
+                margin: 10px 30%;
+            }
+
             .table {
                 height: 534px;
                 width: 1444px;
                 padding: 10px;
-                margin: 60px 73px;
+                margin: 0px 73px 60px 73px;
                 border: 1px solid $bordercolor;
                 font: 16px/26px Georgia, Garamond, Serif;
                 overflow: auto;

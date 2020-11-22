@@ -1,48 +1,53 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 .login {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    margin: -150px 0 0 -150px;
-    width: 300px;
-    height: 300px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin: -150px 0 0 -150px;
+  width: 300px;
+  height: 300px;
 }
-.login img{
-    width: 50%;
+
+.login img {
+  width: 50%;
 }
+
+.login #wrng {
+  text-align: center;
+  color: red;
+  font-size: xx-large;
+}
+
 .login h1 {
-    color: rgb(0, 0, 0);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    letter-spacing: 1px;
-    text-align: center;
+  color: black;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  letter-spacing: 1px;
+  text-align: center;
 }
 
-input {
-    width: 95%;
-    margin-bottom: 10px;
-    border: none;
-    outline: none;
-    padding: 10px;
-    color: black;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    border-radius: 4px;
-
-}
-input:focus{
-    background-color: rgba(0, 0, 255, 0.025);
+.login form input {
+  width: 95%;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
 }
 
-.container i {
-    margin-left: -30px;
-    cursor: pointer;
+.login form input:focus {
+  background-color: rgba(0, 0, 255, 0.025);
 }
-#wrng{
-    text-align: center;
-    color: red;
-    font-size: xx-large;
+
+.login form .container i {
+  margin-left: -30px;
+  cursor: pointer;
 }
+/*# sourceMappingURL=style.css.map */

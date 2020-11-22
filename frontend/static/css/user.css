@@ -109,13 +109,6 @@ main .content .container {
   float: left;
 }
 
-main .content .container button {
-  width: 158px;
-  height: 64px;
-  border-radius: 25px;
-  border: solid 1px #666666;
-}
-
 main .content .container .logs {
   height: 534px;
   width: 1444px;
@@ -126,11 +119,19 @@ main .content .container .logs {
   overflow: auto;
 }
 
+main .content .container button {
+  width: 158px;
+  height: 64px;
+  border-radius: 25px;
+  border: solid 1px #666666;
+  margin: 10px 30%;
+}
+
 main .content .container .table {
   height: 534px;
   width: 1444px;
   padding: 10px;
-  margin: 60px 73px;
+  margin: 0px 73px 60px 73px;
   border: 1px solid #666666;
   font: 16px/26px Georgia, Garamond, Serif;
   overflow: auto;
