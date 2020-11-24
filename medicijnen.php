@@ -2,10 +2,10 @@
 require_once "frontend/web/header.php";
 require_once "frontend/web/nav.php";
 ?>
-    <main>
-        <div class="content">
-            <img src="/healthone/frontend/static/images/profilePicture/profilePlaceholder.png" alt="Profiel Foto">
-            <?php
+<main>
+    <div class="content">
+        <img src="/healthone/frontend/static/images/profilePicture/profilePlaceholder.png" alt="Profiel Foto">
+        <?php
                 session_start();
                 if ($_SESSION['login'] == true) {
                 echo "<h1>Welkom: " . $_SESSION['username'] . "</h1>";
@@ -13,10 +13,10 @@ require_once "frontend/web/nav.php";
                     header('Location: /healthOne/');
                 }
             ?>
-            <div class="container">
-                <button>Toevoegen</button>
-                <div class="table">
-                    <?php
+        <div class="container">
+            <button onclick="document.getElementById('medAddModal').style.display='block'">Toevoegen</button>
+            <div class="table">
+                <?php
                         try{
                             include("backend/connectDB.php");
                             $query = $db->prepare("SELECT * FROM med");
@@ -42,11 +42,13 @@ require_once "frontend/web/nav.php";
                         }
 
                     ?>
-                </div>
             </div>
         </div>
-    </main>
-
+    </div>
+</main>
 <?php
 require_once "frontend/web/footer.php";
+?>
+<?php
+require_once "frontend/web/med/medAdd.php";
 ?>
