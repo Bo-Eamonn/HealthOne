@@ -29,9 +29,9 @@ require_once "frontend/web/nav.php";
                             echo "</tr>";                       
                                 foreach ($result as &$data) {
                                 echo "<tr>";    
-                                    echo "<td id='" . $data["catDesc"]."'>" . $data["uname"] . " </td>";
-                                    echo "<td id='" . $data["catDesc"]."'>" . $data["catDesc"] . " </td>";
-                                    echo "<td id='" . $data["catDesc"]."'>" . "<a title='Edit'><i class='fa fa-pen' aria-hidden='true'></i></a>
+                                    echo "<td>" . $data["uname"] . " </td>";
+                                    echo "<td>" . $data["role"] . " </td>";
+                                    echo "<td>" . "<a title='Edit'><i class='fa fa-pen' aria-hidden='true'></i></a>
                                                                                <a title='Delete'><i class='fa fa-trash' aria-hidden='true'></i></a>" . " </td>";
                                 echo "</tr>";
                             }

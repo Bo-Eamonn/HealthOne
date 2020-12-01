@@ -18,7 +18,7 @@ require_once "frontend/web/nav.php";
                     <?php
                         try{
                             include("backend/connectDB.php");
-                            $query = $db->prepare("SELECT * FROM patienten");
+                            $query = $db->prepare("SELECT * FROM patients");
                             $query->execute();
                             $result = $query->fetchALL(PDO::FETCH_ASSOC);
                             echo "<table>";
